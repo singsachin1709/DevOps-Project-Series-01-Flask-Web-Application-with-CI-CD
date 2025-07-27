@@ -1,5 +1,5 @@
 # DevOps-Project-Series-01-Flask-Web-Application-with-CI-CD
-# Kiran's DevOps Dashboard
+# Sachin's DevOps Dashboard
 
 ## Tech Stack
 - Flask, Docker, Jenkins, Pytest, EC2
@@ -16,4 +16,4 @@ docker run -p 5000:5000 kiran-devops-dashboard
 Use jenkins-deploy.sh to automate tests + build + deploy
 
 ## Contact
-📧 kiranrakh155@gmail.com | 📍 Pune | 🔗 [LinkedIn](https://www.linkedin.com/in/kiran-rakh)
+📧 singsachin348@gmail.com | 📍 Bhopal | 🔗 [LinkedIn](https://www.linkedin.com/in/sachin-singh-patel-devops/)
