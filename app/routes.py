@@ -13,7 +13,7 @@ def health():
 @app.route('/journey')
 def journey():
     return jsonify({
-        "name": "Kiran Rakh",
+        "name": "Sachin Singh Patel",
         "start": "January 2025 - AWS DevOps Intern",
         "milestones": [
             "Completed AWS training (EC2, IAM, VPC, S3, Lambda)",
@@ -32,7 +32,6 @@ def tools():
         "Containers": ["Docker", "Podman"],
         "Kubernetes": ["kubeadm", "Minikube", "Helm"],
         "IaC": ["Terraform", "Ansible"],
-        "Monitoring": ["Prometheus", "Grafana", "cAdvisor"],
         "Cloud": ["AWS (EC2, S3, IAM, Lambda)", "EKS"]
     })
 
@@ -51,8 +50,8 @@ def projects():
 @app.route('/certifications')
 def certifications():
     return jsonify({
-        "in_progress": ["AWS Certified Solutions Architect – Associate"],
-        "planned": ["CKA (Certified Kubernetes Administrator)", "Terraform Associate"]
+        "in_progress": [" AWS Cloud Technical Essentials - Coursera"],
+        "planned": ["Cybersecurity Essentials - Cisco Networking Academy"]
     })
 
 @app.route('/mentorship')
@@ -74,15 +73,15 @@ def resources():
             "Jenkins": "https://www.jenkins.io/doc/"
         },
         "YouTube": "https://www.youtube.com/@vimaldaga",
-        "LinkedIn": "https://www.linkedin.com/in/kiran-rakh"
+        "LinkedIn": "https://www.linkedin.com/in/sachin-singh-patel-devops/"
     })
 
 @app.route('/contact')
 def contact():
     return jsonify({
-        "name": "Kiran Rakh",
-        "location": "Pune, India",
-        "email": "kiranrakh155@gmail.com",
-        "phone": "7721879397",
-        "linkedin": "https://www.linkedin.com/in/kiran-rakh"
+        "name": "Sachin Singh Patel",
+        "location": "Bhopal, India",
+        "email": "singsachin348@@gmail.com",
+        "phone": "9165845146",
+        "linkedin": "https://www.linkedin.com/in/sachin-singh-patel-devops/"
     })

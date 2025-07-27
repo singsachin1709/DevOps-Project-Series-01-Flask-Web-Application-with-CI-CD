@@ -6,10 +6,10 @@ if ! pytest tests/; then
 fi
 
 echo "🐳 Building Docker Image..."
-docker build -t kiran-devops-dashboard .
+docker build -t sachin-devops-dashboard .
 
 echo "🛑 Removing Existing Container..."
-docker rm -f kiran-devops-dashboard || true
+docker rm -f sachin-devops-dashboard || true
 
 echo "🚀 Running New Container..."
-docker run -d --name kiran-devops-dashboard -p 5000:5000 kiran-devops-dashboard
+docker run -d --name sachin-devops-dashboard -p 5000:5000 sachin-devops-dashboard
