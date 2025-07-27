@@ -9,8 +9,8 @@ pip install -r requirements.txt
 python run.py
 
 ## Docker
-docker build -t kiran-devops-dashboard .
-docker run -p 5000:5000 kiran-devops-dashboard
+docker build -t sachin-devops-dashboard .
+docker run -p 5000:5000 sachin-devops-dashboard
 
 ## CI/CD with Jenkins
 Use jenkins-deploy.sh to automate tests + build + deploy
