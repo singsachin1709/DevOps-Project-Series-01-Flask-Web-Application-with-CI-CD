@@ -81,7 +81,7 @@ def contact():
     return jsonify({
         "name": "Sachin Singh Patel",
         "location": "Bhopal, India",
-        "email": "singsachin348@@gmail.com",
+        "email": "singsachin348@gmail.com",
         "phone": "9165845146",
         "linkedin": "https://www.linkedin.com/in/sachin-singh-patel-devops/"
     })
