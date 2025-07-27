@@ -42,4 +42,4 @@ def test_resources_route():
 def test_contact_route():
     response = client.get('/contact')
     assert response.status_code == 200
-    assert response.json['email'] == 'kiranrakh155@gmail.com'
+    assert response.json['email'] == 'singsachin348@gmail.com'
