@@ -1,5 +1,9 @@
 #!/bin/bash
 echo "🔍 Running Tests..."
+
+# Add current directory to PYTHONPATH
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+
 if ! pytest tests/; then
     echo "❌ Tests Failed. Exiting build."
     exit 1
@@ -13,3 +17,4 @@ docker rm -f sachin-devops-dashboard || true
 
 echo "🚀 Running New Container..."
 docker run -d --name sachin-devops-dashboard -p 5000:5000 sachin-devops-dashboard
+
